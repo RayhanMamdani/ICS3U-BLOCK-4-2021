@@ -22,7 +22,7 @@ public class ExampleEight {
     //int -> double // widening conversion
     //double -> int // narrowing conversion
 
-    int v = (int)true
+    //int v = (int)true //cannot int a boolean expression
 
     //boolean p = (int)true // cannot cast boolean to int
 
