@@ -15,6 +15,7 @@ public class ExampleSeven {
     //name constants using all CAPITALS_AND_UNDERSCORES
     final int NUM_STUDENTS = 18;
 
+    System.out.println(x+y+NUM_STUDENTS);
 
     }
 }
