@@ -26,5 +26,6 @@ public class ExampleEight {
 
     //boolean p = (int)true // cannot cast boolean to int
 
+    System.out.println(x+y+z);
     } 
 }
