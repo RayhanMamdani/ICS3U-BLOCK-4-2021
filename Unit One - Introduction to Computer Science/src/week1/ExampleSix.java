@@ -24,5 +24,6 @@ public class ExampleSix {
         int test1 = 2 * g++; //test1 = 6, g = 4 (adds after)
         int test2 = 2* ++f;  //test2 = 8, f = 4 (adds before)
     
+        System.out.println(s+test1+test2);
     }
 }
