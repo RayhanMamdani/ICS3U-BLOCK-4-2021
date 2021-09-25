@@ -27,6 +27,8 @@ public class Student {
    * Constructor - same name as the class and its purpose is to instantiate a
    * instance of the class (creates a state and places it in its initial state)
    */
+
+  
   public Student(String name, String studentNumber, int grade) {
     this.name = name;
     this.studentNumber = studentNumber;
@@ -35,7 +37,26 @@ public class Student {
     this.numMarks = 0;
     this.average = 0;
   }
+    /**
+    * 
+    *Overloading a method is when you have multiple methods with the same name but different parrameters/arg
+    */
+  public Student(String name, String studentNumber) {
+    this.name = name;
+    this.studentNumber = studentNumber;
+    this.grade = 9;
+    this.totalMarks = 0;
+    this.numMarks = 0;
+    this.average = 0;
+  }
 
+  public String getName() {
+    return name;
+  }
+  
+  public double getAverage() {
+    return average;
+  }
   /**
    * displayName, displayStudentNumber, increaseGrade, displayGrade The methods
    * (actions) in a class define behaviour for the class
