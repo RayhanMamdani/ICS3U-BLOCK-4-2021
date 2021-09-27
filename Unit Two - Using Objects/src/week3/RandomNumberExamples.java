@@ -17,6 +17,7 @@ public class RandomNumberExamples {
         int numPossibilities = (upper - lower + 1);
 
         int rand = (int) (r * numPossibilities) + 1;
+        System.out.println(rand);
 
         String str = "Random Numbers";      //Change a random character in str to "x"
 
