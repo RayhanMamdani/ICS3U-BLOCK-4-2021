@@ -4,7 +4,7 @@ public class ExtraPractice {
     public static void main(String[] args) {
         exampleOne();
         exampleTwo();
-        exampleThree();
+        System.out.println(exampleThree());
         System.out.println(exampleFour(6, 19));
         System.out.println(exampleFive("lawnmower"));
         System.out.println(exampleSix("Television", "ele"));
@@ -23,9 +23,9 @@ public class ExtraPractice {
         int num = (int) (Math.random() * 100) - 50;
         System.out.println(num);
     }
-    public static void exampleThree() {
+    public static int exampleThree() {
         int diceRoll = (int) (Math.random() * 6) + 1;
-        System.out.println(diceRoll);
+        return diceRoll;
     }
     public static int exampleFour(int lowest, int highest) {
         int num = (int) (Math.random() * (highest - lowest + 1)) + lowest;
